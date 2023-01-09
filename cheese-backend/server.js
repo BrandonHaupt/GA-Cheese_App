@@ -38,7 +38,7 @@ app.use(express.json())
 
 // ROUTE SECTION
 app.get('/', (req,res) => {
-    res.send('Hello')
+    res.send('Cheese baby!')
 })
 
 app.get('/cheese', async (req, res) => {
